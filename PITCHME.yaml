@@ -1,0 +1,10 @@
+
+theme : beige
+theme-override : assets/css/PITCHME.css
+logo : assets/image/logo.png
+background : assets/image/background.svg.png
+background-size : cover
+highlight : atom-one-dark
+transition : none
+published : true
+footnote : "Presentación Dirhunt"
