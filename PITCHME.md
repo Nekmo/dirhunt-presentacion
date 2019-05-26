@@ -32,7 +32,7 @@ Note:
 A parte, en mi tiempo libre desarrollo Dirhunt, una herramienta para descubrir contenido de aplicaciones web, la cual 
 es software libre y puede encontrarse en Github. 
 
----?image=assets/image/bg/blue.jpg&position=left&size=100% 30%
+---?image=assets/image/bg/blue.jpg&position=left&size=30% 100%
 
 @snap[west text-16 text-bold text-italic text-orange span-30]
 Más de 600 estrellas
@@ -45,7 +45,7 @@ Más de 600 estrellas
 Note:
 Ha tenido una buena acogida y a día de hoy se puede considerar un proyecto maduro.
 
----?image=assets/image/bg/blue.jpg&position=right&size=100% 30%
+---?image=assets/image/bg/blue.jpg&position=right&size=30% 100%
 
 @snap[east span-30 text-11 text-white]
 ¿En qué se diferencian?
@@ -68,7 +68,7 @@ Note:
 Estas herramientas normalmente realizan fuerza bruta desde un diccionario, lo cual requiere muchos intentos. Vamos, 
 **algo que podría hacer un mono**.
 
----?image=assets/image/monkey.gif
+---?image=assets/image/monkey.webp
 @title[mono]
    
 @snap[north-east text-white]

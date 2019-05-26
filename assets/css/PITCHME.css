@@ -5,7 +5,11 @@
  * https://github.com/gitpitch/gitpitch/wiki/Slideshow-Custom-CSS
  */
 
-@import url('../fonts/BowlbyOneSC-Regular.ttf');
+@font-face {
+  font-family: 'Bowlby One SC';
+  src: url('../fonts/BowlbyOneSC-Regular.ttf');
+}
+
 
 
 /* Intro Template Styles */
@@ -191,12 +195,13 @@ div.docslink a:hover {
 
 .project-name {
     font-family: 'Bowlby One SC', cursive;
+    color: #331e00;
 }
-
 
 .template-note {
   letter-spacing: 0.1em;
   font-size: 0.4em !important;
+  color: #ff9800;
 }
 
 #gp-logo img {
