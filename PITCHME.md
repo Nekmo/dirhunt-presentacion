@@ -1,9 +1,14 @@
-@title[Introducción]
+@title[Dirhunt]
+
 # Dirhunt
 
+---
+
+@title[Introducción]
+
 Note:
-Buenas, soy **Juan José Oyagüe**, llevo 13 años desarrollando en Python y me encuentro especializado en seguridad 
-informática en Hispasec Sistemas.
+Buenas, soy **Juan José**, conocido en Github como **Nekmo** y llevo 13 años desarrollando en Python; estoy 
+especializado en seguridad informática en Hispasec Sistemas.
 
 ---
 
@@ -26,6 +31,8 @@ Note:
 (listar otras alternativas como Cansina)
 
 ---
+
+https://giphy.com/gifs/monkey-VjAB0fOmK15Ze
 
 ```text
 http://dominio/AAAAAAA.php
@@ -51,12 +58,18 @@ páginas. **¿Y para qué sirve esto?**
 
 ---
 
-### Usos
+@snap[north-west]
+Usos
+@snapend
 
-* Revelar los directorios del sitio.
-* Detectar plugins e información del software.
-* Encontrar malware y ficheros de configuración.
-* ... Entre otras cosas.
+@snap[south-west list-content-concise span-100]
+@ul
+- Revelar los directorios del sitio.
+- Detectar plugins e información del software.
+- Encontrar malware y ficheros de configuración.
+- ... Entre otras cosas.
+@ulend
+@snapend
 
 Note:
  (leer listado) ... Por ejemplo, tengo un amigo que lo usa para obtener información de   
