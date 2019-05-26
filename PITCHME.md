@@ -2,9 +2,157 @@
 # Dirhunt
 
 Note:
-Buenas, soy **Juan José Oyagüe**, en esta charla voy a contar mi experiencia usando **Angular 6 junto con Django**,
+Buenas, soy **Juan José Oyagüe**, llevo 13 años desarrollando en Python y me encuentro especializado en seguridad 
+informática en Hispasec Sistemas.
 
 ---
+
+Note:
+A parte, en mi tiempo libre desarrollo Dirhunt, una herramienta para descubrir contenido de aplicaciones web, la cual 
+es software libre y puede encontrarse en Github. 
+
+(imagen repositorio Github)
+
+---
+
+Note:
+Ha tenido una buena acogida y a día de hoy se puede considerar un proyecto maduro.
+
+---
+
+Note:
+¿Pero en qué se diferencia esta herramienta?
+
+(listar otras alternativas como Cansina)
+
+---
+
+```text
+http://dominio/AAAAAAA.php
+               AAAAAAB.php
+               AAAAAAC.php
+```
+
+Note:
+Estas herramientas normalmente realizan fuerza bruta desde un diccionario, lo cual requiere muchos intentos.
+
+---
+
+(árboles de peticiones)
+
+Note:
+En cambio, Dirhunt es un crawler que analiza el contenido para encontrar nuevas rutas.
+
+---
+
+Note:
+Recorre los directorios de los assets de la página. Sigue los enlaces internos de la web para encontrar nuevas 
+páginas. **¿Y para qué sirve esto?**
+
+---
+
+### Usos
+
+* Revelar los directorios del sitio.
+* Detectar plugins e información del software.
+* Encontrar malware y ficheros de configuración.
+* ... Entre otras cosas.
+
+Note:
+ (leer listado) ... Por ejemplo, tengo un amigo que lo usa para obtener información de   
+sitios web para SEO.
+
+---
+
+Note:
+Pero cuando Dirhunt es especialmente potente, es en aquellos sitios con el Index Of habilitado. 
+
+---
+
+### ¿Pero qué pasa si no hay assets, enlaces ni Index Of habilitado?
+
+Note:
+Pero por si no hay formas de obtener enlaces ni carpetas de la página principal, también tiene otros trucos:
+
+---
+
+### Google
+
+```text
+site:sitioweb.com
+```
+
+Note:
+También realiza una búsqueda en Google con el dominio para obtener carpetas.
+
+---
+
+### VirusTotal
+
+Note:
+Busca en VirusTotal por el dominio.
+
+---
+
+### Robots.txt
+
+Note:
+El robots.txt suele tener directorios interesantes, y también los usa para encontrar más directorios.
+
+---
+
+* Filtros por flags
+* Reporta páginas en blanco en directorios.
+* Detecta falsos 404.
+
+Note:
+Los resultados pueden filtrar por flags, reporta las páginas en blanco que ocultan contenido en directorios y los 
+falsos 404.
+
+---
+
+Note:
+Finalmente, los resultados son mostrados al final junto con un resumen, y el tamaño y la fecha si el fichero viene de  
+un Index Of.
+
+---
+
+Note:
+Con Dirhunt hace falta hacer muchas menos peticiones, pero por si hace falta, también hay buenas opciones para las 
+peticiones:
+
+---
+
+* Define uno o varios proxies.
+* Delay entre peticiones.
+* Búsqueda automática de proxies gratuitos, aleatorios o por países.
+
+---
+
+```
+$ sudo pip3 install dirhunt
+```
+
+O haz tu fork de [Nekmo/dirhunt](https://github.com/Nekmo/dirhunt) en Github.
+
+---
+@title[presentación]
+
+## ¿Y la presentación?
+
+* Presentación: [github:Nekmo/dirhunt-presentacion](https://github.com/Nekmo/dirhunt-presentacion)
+
+---
+@title[contactar]
+
+## Contactar
+
+* Email: [contacto@nekmo.com](mailto:contacto@nekmo.com)
+* Telegram: [@nekmo](https://t.me/nekmo)
+* Jabber: [nekmo@nekmo.org](xmpp://nekmo@nekmo.org)
+
+---
+
 @title[acerca-tec]
 ## Tecnologías previas
 
