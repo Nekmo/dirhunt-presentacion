@@ -2,10 +2,15 @@
 
 ![TIP](https://raw.githubusercontent.com/Nekmo/dirhunt/develop/docs/_static/logo.png)
 <br>
-Busca directorios sin fuerza bruta
+@css[project-name](DIRHUNT)
+@css[template-note](Busca directorios sin fuerza bruta)
 
----
-@title[Introducción]
+---?image=assets/image/bg/gray.jpg&position=top&size=100% 20%
+@title[sobre-mi]
+
+@snap[north text-white span-100]
+@size[1.5em](Mi perfil en Github)
+@snapend
 
 ![TIP](assets/image/github_nekmo.png)
 
@@ -14,7 +19,12 @@ Note:
 Buenas, soy **Juan José**, conocido en Github como **Nekmo** y llevo 13 años desarrollando en Python; estoy 
 especializado en seguridad informática en Hispasec Sistemas.
 
----
+---?image=assets/image/bg/orange.jpg&position=bottom&size=100% 20%
+@title[github-dirhunt]
+
+@snap[south text-white span-100]
+@size[1.5em](Repositorio de Dirhunt en Github)
+@snapend
 
 ![TIP](assets/image/github_dirhunt.png)
 
@@ -22,18 +32,24 @@ Note:
 A parte, en mi tiempo libre desarrollo Dirhunt, una herramienta para descubrir contenido de aplicaciones web, la cual 
 es software libre y puede encontrarse en Github. 
 
-(imagen repositorio Github)
+---?image=assets/image/bg/blue.jpg&position=left&size=100% 30%
 
----
+@snap[west text-16 text-bold text-italic text-orange span-30]
+Más de 600 estrellas
+@snapend
 
-![TIP](assets/image/github_stars.png)
+@snap[east fragment]
+@img[github-stars span-40](assets/image/github_stars.png)
+@snapend
 
 Note:
 Ha tenido una buena acogida y a día de hoy se puede considerar un proyecto maduro.
 
----
+---?image=assets/image/bg/blue.jpg&position=right&size=100% 30%
 
-¿En qué se diferencia?
+@snap[east span-30 text-11 text-white]
+¿En qué se diferencian?
+@snapend
 
 Note:
 ¿Pero en qué se diferencia esta herramienta?
@@ -52,7 +68,7 @@ Note:
 Estas herramientas normalmente realizan fuerza bruta desde un diccionario, lo cual requiere muchos intentos. Vamos, 
 **algo que podría hacer un mono**.
 
----?image=assets/img/monkey.gif
+---?image=assets/image/monkey.gif
 @title[mono]
    
 @snap[north-east text-white]
