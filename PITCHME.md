@@ -1,16 +1,22 @@
 @title[Dirhunt]
 
-# Dirhunt
+![TIP](https://raw.githubusercontent.com/Nekmo/dirhunt/develop/docs/_static/logo.png)
+<br>
+Busca directorios sin fuerza bruta
 
 ---
-
 @title[Introducción]
+
+![TIP](assets/image/github_nekmo.png)
+
 
 Note:
 Buenas, soy **Juan José**, conocido en Github como **Nekmo** y llevo 13 años desarrollando en Python; estoy 
 especializado en seguridad informática en Hispasec Sistemas.
 
 ---
+
+![TIP](assets/image/github_dirhunt.png)
 
 Note:
 A parte, en mi tiempo libre desarrollo Dirhunt, una herramienta para descubrir contenido de aplicaciones web, la cual 
@@ -20,10 +26,14 @@ es software libre y puede encontrarse en Github.
 
 ---
 
+![TIP](assets/image/github_stars.png)
+
 Note:
 Ha tenido una buena acogida y a día de hoy se puede considerar un proyecto maduro.
 
 ---
+
+¿En qué se diferencia?
 
 Note:
 ¿Pero en qué se diferencia esta herramienta?
@@ -32,8 +42,6 @@ Note:
 
 ---
 
-https://giphy.com/gifs/monkey-VjAB0fOmK15Ze
-
 ```text
 http://dominio/AAAAAAA.php
                AAAAAAB.php
@@ -41,11 +49,19 @@ http://dominio/AAAAAAA.php
 ```
 
 Note:
-Estas herramientas normalmente realizan fuerza bruta desde un diccionario, lo cual requiere muchos intentos.
+Estas herramientas normalmente realizan fuerza bruta desde un diccionario, lo cual requiere muchos intentos. Vamos, 
+**algo que podría hacer un mono**.
+
+---?image=assets/img/monkey.gif
+@title[mono]
+   
+@snap[north-east text-white]
+O más bien, este mono
+@snapend
 
 ---
 
-(árboles de peticiones)
+![TIP](assets/image/peticiones-dirhunt.png)
 
 Note:
 En cambio, Dirhunt es un crawler que analiza el contenido para encontrar nuevas rutas.
@@ -77,6 +93,9 @@ sitios web para SEO.
 
 ---
 
+![TIP](assets/image/index_of.png)
+
+
 Note:
 Pero cuando Dirhunt es especialmente potente, es en aquellos sitios con el Index Of habilitado. 
 
@@ -91,9 +110,8 @@ Pero por si no hay formas de obtener enlaces ni carpetas de la página principal
 
 ### Google
 
-```text
-site:sitioweb.com
-```
+![TIP](assets/image/google_search.png)
+
 
 Note:
 También realiza una búsqueda en Google con el dominio para obtener carpetas.
@@ -102,12 +120,22 @@ También realiza una búsqueda en Google con el dominio para obtener carpetas.
 
 ### VirusTotal
 
+![TIP](assets/image/virustotal_search.png)
+
+
 Note:
 Busca en VirusTotal por el dominio.
 
 ---
 
 ### Robots.txt
+
+```text
+User-agent: googlebot
+Disallow: /directory1/
+Disallow: /directory2/
+Allow: /directory2/subdirectory1/
+```
 
 Note:
 El robots.txt suele tener directorios interesantes, y también los usa para encontrar más directorios.
@@ -123,6 +151,8 @@ Los resultados pueden filtrar por flags, reporta las páginas en blanco que ocul
 falsos 404.
 
 ---
+
+![TIP](assets/image/results.png)
 
 Note:
 Finalmente, los resultados son mostrados al final junto con un resumen, y el tamaño y la fecha si el fichero viene de  
@@ -160,9 +190,28 @@ O haz tu fork de [Nekmo/dirhunt](https://github.com/Nekmo/dirhunt) en Github.
 
 ## Contactar
 
-* Email: [contacto@nekmo.com](mailto:contacto@nekmo.com)
-* Telegram: [@nekmo](https://t.me/nekmo)
-* Jabber: [nekmo@nekmo.org](xmpp://nekmo@nekmo.org)
+
+@snap[west contact-links]
+@css[contact-name](Nekmocom)<br>
+<a href="https://github.com/gitpitch/gitpitch">
+@fa[github-square pad-right-icon]@css[git-handle](Nekmo)
+</a><br>
+<a href="https://twitter.com/nekmocom">
+@fa[twitter-square pad-right-icon]@css[twitter-handle](@nekmocom)
+</a><br>
+<a href="mailto: david@gitpitch.com">
+@fa[envelope-o pad-right-icon]@css[contact-email](contacto@nekmo.com)
+</a>
+@snapend
+
+@snap[east span-50]
+![](assets/image/contact-1.png)
+@snapend
+
+@snap[north-east template-note text-gray]
+Formas de contacto.
+@snapend
+
 
 ---
 

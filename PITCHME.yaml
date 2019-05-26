@@ -61,4 +61,4 @@ transition : none
 #
 title : "Dirhunt: busca directorios sin fuerza bruta"
 description : "Una herramienta de seguridad informática en Python para encontrar ficheros y directorios."
-thumbnail : https://github.com/Nekmo/dirhunt/blob/develop/docs/_static/logo.png
+thumbnail : https://raw.githubusercontent.com/Nekmo/dirhunt/develop/docs/_static/logo.png
