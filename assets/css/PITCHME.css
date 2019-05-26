@@ -10,7 +10,10 @@
   src: url('../fonts/BowlbyOneSC-Regular.ttf');
 }
 
-
+.west-30 {
+    left: -100px !important;
+    text-align: right !important;
+}
 
 /* Intro Template Styles */
 
@@ -194,8 +197,9 @@ div.docslink a:hover {
 /** General Template Styles **/
 
 .project-name {
-    font-family: 'Bowlby One SC', cursive;
+    font-family: 'Bowlby One SC', cursive !important;
     color: #331e00;
+    display: block;
 }
 
 .template-note {
