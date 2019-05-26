@@ -34,11 +34,11 @@ es software libre y puede encontrarse en Github.
 
 ---?image=assets/image/bg/blue.jpg&position=left&size=30% 100%
 
-@snap[west text-16 text-bold text-italic text-orange span-30]
+@snap[west text-18 text-bold text-italic text-white span-10]
 Más de 600 estrellas
 @snapend
 
-@snap[east fragment]
+@snap[east]
 @img[github-stars span-40](assets/image/github_stars.png)
 @snapend
 
@@ -47,7 +47,7 @@ Ha tenido una buena acogida y a día de hoy se puede considerar un proyecto madu
 
 ---?image=assets/image/bg/blue.jpg&position=right&size=30% 100%
 
-@snap[east span-30 text-11 text-white]
+@snap[east span-10 text-18 text-white]
 ¿En qué se diferencian?
 @snapend
 
