@@ -67,9 +67,9 @@ http://dominio/AAAAAAA.php
                AAAAAAB.php
                AAAAAAC.php
 ```
-@[1](404: Not found.)
-@[2](404: Not found.)
-@[3](404: Not found.)
+@[1](Meec! 404: Not found.)
+@[2](Meeeeec! 404: Not found.)
+@[3](MEEEEEEEEEC!! 429: To Many Requests.)
 
 
 Note:
@@ -91,7 +91,7 @@ O más bien, este mono
 Note:
 En cambio, Dirhunt es un crawler que analiza el contenido para encontrar nuevas rutas.
 
----
+---?color=black
 @title[procesado-peticiones]
 
 @snap[north-west span-40]
@@ -119,10 +119,10 @@ Note:
 Recorre los directorios de los assets de la página. Sigue los enlaces internos de la web para encontrar nuevas 
 páginas. **¿Y para qué sirve esto?**
 
----
+---?image=assets/image/bg/pink.jpg&position=top&size=100% 20%
 @title[otras-herramientas]
 
-@snap[north-west]
+@snap[north-west span-100 text-white]
 Usos
 @snapend
 
@@ -148,18 +148,23 @@ sitios web para SEO.
 Note:
 Pero cuando Dirhunt es especialmente potente, es en aquellos sitios con el Index Of habilitado. 
 
----
+---?image=template/img/bg/green.jpg&position=center&size=100% 65%
 @title[otras-fuentes]
 
-### ¿Pero qué pasa si no hay assets, enlaces ni Index Of habilitado?
+@snap[north-west span-100 text-white]
+¿Pero qué pasa si no hay assets, enlaces ni Index Of habilitado?
+@snapend
 
 Note:
 Pero por si no hay formas de obtener enlaces ni carpetas de la página principal, también tiene otros trucos:
 
----
+---?image=assets/image/bg/blue.jpg&position=left&size=40% 100%
 @title[otras-fuentes-google]
 
-### Google
+@snap[east span-40 text-24 text-white text-bold]
+Google
+@snapend
+
 
 ![TIP](assets/image/google_search.png)
 
@@ -178,10 +183,12 @@ También realiza una búsqueda en Google con el dominio para obtener carpetas.
 Note:
 Busca en VirusTotal por el dominio.
 
----
+---?image=assets/image/bg/blue.jpg&position=left&size=40% 100%
 @title[otras-fuentes-robots]
 
-### Robots.txt
+@snap[east span-40 text-24 text-white text-bold]
+Robots.txt
+@snapend
 
 ```text
 User-agent: googlebot
