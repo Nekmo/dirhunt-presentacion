@@ -10,8 +10,13 @@
   src: url('../fonts/BowlbyOneSC-Regular.ttf');
 }
 
+@font-face {
+  font-family: 'Coda Caption H';
+  src: url('../fonts/CodaCaption-Heavy.ttf');
+}
+
 .west-30 {
-    left: -100px !important;
+    /* left: -100px !important; */
     text-align: right !important;
 }
 
@@ -203,6 +208,7 @@ div.docslink a:hover {
 }
 
 .template-note {
+    font-family: 'Coda Caption H', "Coda Caption", Coda, serif;
   letter-spacing: 0.1em;
   font-size: 0.4em !important;
   color: #ff9800;
@@ -275,6 +281,10 @@ div.docslink a:hover {
   font-size: 50% !important;
 }
 
+[data-menu-title="fuerza-bruta"] code {
+    font-size: 2.5em;
+    color: whitesmoke;
+}
 
 /*.reveal pre {*/
   /*width: 100%;*/

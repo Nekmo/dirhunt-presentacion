@@ -32,9 +32,10 @@ Note:
 A parte, en mi tiempo libre desarrollo Dirhunt, una herramienta para descubrir contenido de aplicaciones web, la cual 
 es software libre y puede encontrarse en Github. 
 
----?image=assets/image/bg/blue.jpg&position=left&size=30% 100%
+---?image=assets/image/bg/blue.jpg&position=left&size=40% 100%
+@title[github-stars]
 
-@snap[west west-30 text-18 text-bold text-italic text-white span-10]
+@snap[west west-30 text-18 text-bold text-italic text-white span-30]
 Más de 600 estrellas
 @snapend
 
@@ -45,9 +46,11 @@ Más de 600 estrellas
 Note:
 Ha tenido una buena acogida y a día de hoy se puede considerar un proyecto maduro.
 
----?image=assets/image/bg/blue.jpg&position=right&size=30% 100%
+---?image=assets/image/bg/blue.jpg&position=right&size=60% 100%
+@title[otras-herramientas]
 
-@snap[east span-10 text-18 text-white]
+
+@snap[east span-40 text-24 text-white text-bold]
 ¿En qué se diferencian?
 @snapend
 
@@ -56,13 +59,18 @@ Note:
 
 (listar otras alternativas como Cansina)
 
----
+---?color=#36454F
+@title[fuerza-bruta]
 
 ```text
 http://dominio/AAAAAAA.php
                AAAAAAB.php
                AAAAAAC.php
 ```
+@[1](404: Not found.)
+@[2](404: Not found.)
+@[3](404: Not found.)
+
 
 Note:
 Estas herramientas normalmente realizan fuerza bruta desde un diccionario, lo cual requiere muchos intentos. Vamos, 
@@ -76,6 +84,7 @@ O más bien, este mono
 @snapend
 
 ---
+@title[peticiones-dirhunt]
 
 ![TIP](assets/image/peticiones-dirhunt.png)
 
@@ -83,18 +92,41 @@ Note:
 En cambio, Dirhunt es un crawler que analiza el contenido para encontrar nuevas rutas.
 
 ---
+@title[procesado-peticiones]
+
+@snap[north-west span-40]
+@box[bg-green text-white box-wide-padding](1. Páginas#Se procesa el contenido)
+@snapend
+
+@snap[north-east span-40]
+@box[bg-orange text-white box-wide-padding rounded](2. Enlaces#Nuevas páginas y assets)
+@snapend
+
+@snap[south-east span-40]
+@box[bg-pink text-white box-wide-padding](3. Assets#Se procesan y busca más rutas)
+@snapend
+
+@snap[south-west span-40]
+@box[bg-blue text-white box-wide-padding waved](4. Carpetas#Se analizan las carpetas a los paths)
+@snapend
+
+@snap[midpoint]
+@fa[refresh fa-3x]
+@snapend
+
 
 Note:
 Recorre los directorios de los assets de la página. Sigue los enlaces internos de la web para encontrar nuevas 
 páginas. **¿Y para qué sirve esto?**
 
 ---
+@title[otras-herramientas]
 
 @snap[north-west]
 Usos
 @snapend
 
-@snap[south-west list-content-concise span-100]
+@snap[center-west list-content-concise span-100]
 @ul
 - Revelar los directorios del sitio.
 - Detectar plugins e información del software.
@@ -108,6 +140,7 @@ Note:
 sitios web para SEO.
 
 ---
+@title[index-of]
 
 ![TIP](assets/image/index_of.png)
 
@@ -116,6 +149,7 @@ Note:
 Pero cuando Dirhunt es especialmente potente, es en aquellos sitios con el Index Of habilitado. 
 
 ---
+@title[otras-fuentes]
 
 ### ¿Pero qué pasa si no hay assets, enlaces ni Index Of habilitado?
 
@@ -123,6 +157,7 @@ Note:
 Pero por si no hay formas de obtener enlaces ni carpetas de la página principal, también tiene otros trucos:
 
 ---
+@title[otras-fuentes-google]
 
 ### Google
 
@@ -133,6 +168,7 @@ Note:
 También realiza una búsqueda en Google con el dominio para obtener carpetas.
 
 ---
+@title[otras-fuentes-virustotal]
 
 ### VirusTotal
 
@@ -143,6 +179,7 @@ Note:
 Busca en VirusTotal por el dominio.
 
 ---
+@title[otras-fuentes-robots]
 
 ### Robots.txt
 
@@ -157,6 +194,7 @@ Note:
 El robots.txt suele tener directorios interesantes, y también los usa para encontrar más directorios.
 
 ---
+@title[previo-resultados]
 
 * Filtros por flags
 * Reporta páginas en blanco en directorios.
@@ -167,6 +205,7 @@ Los resultados pueden filtrar por flags, reporta las páginas en blanco que ocul
 falsos 404.
 
 ---
+@title[reporte-resultados]
 
 ![TIP](assets/image/results.png)
 
@@ -175,18 +214,22 @@ Finalmente, los resultados son mostrados al final junto con un resumen, y el tam
 un Index Of.
 
 ---
+@title[opciones-peticion]
 
 Note:
 Con Dirhunt hace falta hacer muchas menos peticiones, pero por si hace falta, también hay buenas opciones para las 
 peticiones:
 
 ---
+@title[opciones-peticion-2]
 
 * Define uno o varios proxies.
 * Delay entre peticiones.
 * Búsqueda automática de proxies gratuitos, aleatorios o por países.
 
 ---
+@title[instalar]
+
 
 ```
 $ sudo pip3 install dirhunt
