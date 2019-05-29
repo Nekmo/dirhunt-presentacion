@@ -148,7 +148,7 @@ sitios web para SEO.
 Note:
 Pero cuando Dirhunt es especialmente potente, es en aquellos sitios con el Index Of habilitado. 
 
----?image=template/img/bg/green.jpg&position=center&size=100% 65%
+---?image=assets/image/bg/green.jpg&position=center&size=100% 65%
 @title[otras-fuentes]
 
 @snap[north-west span-100 text-white]
@@ -172,15 +172,16 @@ Google
 Note:
 También realiza una búsqueda en Google con el dominio para obtener carpetas.
 
----?image=assets/image/bg/blue.jpg&position=right&size=70% 100%
+---?image=assets/image/bg/blue.jpg&position=right&size=40% 100%
 @title[otras-fuentes-virustotal]
 
 @snap[east span-50 text-24 text-white text-bold]
 VirusTotal
 @snapend
 
+@snap[west]
 ![TIP](assets/image/virustotal_search.png)
-
+@snapend
 
 Note:
 Busca en VirusTotal por el dominio.
@@ -192,14 +193,14 @@ Busca en VirusTotal por el dominio.
 Robots.txt
 @snapend
 
-@snap[east]
+
 ```text
 User-agent: googlebot
 Disallow: /directory1/
 Disallow: /directory2/
 Allow: /directory2/subdirectory1/
 ```
-@snapend
+
 
 Note:
 El robots.txt suele tener directorios interesantes, y también los usa para encontrar más directorios.
