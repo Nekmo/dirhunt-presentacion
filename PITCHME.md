@@ -46,11 +46,11 @@ Más de 600 estrellas
 Note:
 Ha tenido una buena acogida y a día de hoy se puede considerar un proyecto maduro.
 
----?image=assets/image/bg/blue.jpg&position=right&size=60% 100%
+---?image=assets/image/bg/blue.jpg&position=right&size=70% 100%
 @title[otras-herramientas]
 
 
-@snap[east span-40 text-24 text-white text-bold]
+@snap[east span-50 text-24 text-white text-bold]
 ¿En qué se diferencian?
 @snapend
 
@@ -123,7 +123,7 @@ páginas. **¿Y para qué sirve esto?**
 @title[otras-herramientas]
 
 @snap[north-west span-100 text-white]
-Usos
+@size[1.5em](Usos)
 @snapend
 
 @snap[center-west list-content-concise span-100]
@@ -161,21 +161,23 @@ Pero por si no hay formas de obtener enlaces ni carpetas de la página principal
 ---?image=assets/image/bg/blue.jpg&position=left&size=40% 100%
 @title[otras-fuentes-google]
 
-@snap[east span-40 text-24 text-white text-bold]
+@snap[west west-30 text-18 text-bold text-white span-30]
 Google
 @snapend
 
-
+@snap[east]
 ![TIP](assets/image/google_search.png)
-
+@snapend
 
 Note:
 También realiza una búsqueda en Google con el dominio para obtener carpetas.
 
----
+---?image=assets/image/bg/blue.jpg&position=right&size=70% 100%
 @title[otras-fuentes-virustotal]
 
-### VirusTotal
+@snap[east span-50 text-24 text-white text-bold]
+VirusTotal
+@snapend
 
 ![TIP](assets/image/virustotal_search.png)
 
@@ -186,16 +188,18 @@ Busca en VirusTotal por el dominio.
 ---?image=assets/image/bg/blue.jpg&position=left&size=40% 100%
 @title[otras-fuentes-robots]
 
-@snap[east span-40 text-24 text-white text-bold]
+@snap[west west-30 text-18 text-bold text-white span-30]
 Robots.txt
 @snapend
 
+@snap[east]
 ```text
 User-agent: googlebot
 Disallow: /directory1/
 Disallow: /directory2/
 Allow: /directory2/subdirectory1/
 ```
+@snapend
 
 Note:
 El robots.txt suele tener directorios interesantes, y también los usa para encontrar más directorios.
@@ -203,9 +207,10 @@ El robots.txt suele tener directorios interesantes, y también los usa para enco
 ---
 @title[previo-resultados]
 
-* Filtros por flags
-* Reporta páginas en blanco en directorios.
-* Detecta falsos 404.
+- Filtros por flags
+- Reporta páginas en blanco en directorios.
+- Detecta falsos 404.
+
 
 Note:
 Los resultados pueden filtrar por flags, reporta las páginas en blanco que ocultan contenido en directorios y los 
