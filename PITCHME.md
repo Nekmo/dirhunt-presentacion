@@ -119,6 +119,15 @@ Note:
 Recorre los directorios de los assets de la página. Sigue los enlaces internos de la web para encontrar nuevas 
 páginas. **¿Y para qué sirve esto?**
 
+---?image=assets/image/bg/black.jpg&position=top&size=100% 20%
+@title[asciinema]
+
+@snap[north text-white span-100]
+@size[1.5em](En acción)
+@snapend
+
+[![asciicast](https://asciinema.org/a/xPJXT0MhrvlZ8lJYJYkjxlice.png)](https://asciinema.org/a/xPJXT0MhrvlZ8lJYJYkjxlice)
+
 ---?image=assets/image/bg/pink.jpg&position=top&size=100% 20%
 @title[otras-herramientas]
 
@@ -217,11 +226,11 @@ El robots.txt suele tener directorios interesantes, y también los usa para enco
 @snapend
 
 @snap[south-east span-60 fragment]
-@box[bg-purple text-white box-narrow-padding](Filtrar.#Devolver sólo los falsos 404, etc.)
+@box[bg-purple text-white box-narrow-padding](Filtrar.#Devolver sólo los falsos 404, que usan páginas en blanco, etc.)
 @snapend
 
 
----
+---?image=assets/image/bg/yellow.jpg&position=bottom&size=100% 20%
 @title[reporte-resultados]
 
 @snap[north text-white span-100]
@@ -238,7 +247,7 @@ un Index Of.
 @title[opciones-peticion]
 
 @snap[center-center span-100 text-white]
-@size[1.5em](Opciones en la petición)
+@size[2em](Opciones en la petición)
 @snapend
 
 Note:
