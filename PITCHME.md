@@ -126,7 +126,10 @@ páginas. **¿Y para qué sirve esto?**
 @size[1.5em](En acción)
 @snapend
 
+@snap[south zoom-08]
 [![asciicast](https://asciinema.org/a/xPJXT0MhrvlZ8lJYJYkjxlice.png)](https://asciinema.org/a/xPJXT0MhrvlZ8lJYJYkjxlice)
+@snapend
+
 
 ---?image=assets/image/bg/pink.jpg&position=top&size=100% 20%
 @title[otras-herramientas]
