@@ -151,7 +151,7 @@ Pero cuando Dirhunt es especialmente potente, es en aquellos sitios con el Index
 ---?image=assets/image/bg/green.jpg&position=center&size=100% 65%
 @title[otras-fuentes]
 
-@snap[north-west span-100 text-white]
+@snap[center-center span-100 text-white]
 ¿Pero qué pasa si no hay assets, enlaces ni Index Of habilitado?
 @snapend
 
@@ -172,14 +172,14 @@ Google
 Note:
 También realiza una búsqueda en Google con el dominio para obtener carpetas.
 
----?image=assets/image/bg/blue.jpg&position=right&size=40% 100%
+---?image=assets/image/bg/purple.jpg&position=right&size=40% 100%
 @title[otras-fuentes-virustotal]
 
-@snap[east span-50 text-24 text-white text-bold]
-VirusTotal
+@snap[east span-30 text-align-left text-24 text-white text-bold]
+Virus Total
 @snapend
 
-@snap[west]
+@snap[west zoom-08]
 ![TIP](assets/image/virustotal_search.png)
 @snapend
 
@@ -189,7 +189,7 @@ Busca en VirusTotal por el dominio.
 ---?image=assets/image/bg/blue.jpg&position=left&size=40% 100%
 @title[otras-fuentes-robots]
 
-@snap[west west-30 text-18 text-bold text-white span-30]
+@snap[west text-18 text-bold text-white span-30]
 Robots.txt
 @snapend
 
@@ -208,17 +208,29 @@ El robots.txt suele tener directorios interesantes, y también los usa para enco
 ---
 @title[previo-resultados]
 
-- Filtros por flags
-- Reporta páginas en blanco en directorios.
-- Detecta falsos 404.
+@snap[south-east span-60 fragment]
+@box[bg-pink text-white box-narrow-padding](Falsos 404.#Si una carpeta devuelve 404, pero tiene subarchivos.)
+@snapend
 
+@snap[east span-60 fragment]
+@box[bg-orange text-white box-narrow-padding](Páginas en blanco.#Suelen usarse para ocultar en directorios.)
+@snapend
 
-Note:
-Los resultados pueden filtrar por flags, reporta las páginas en blanco que ocultan contenido en directorios y los 
-falsos 404.
+@snap[north-east span-60 fragment]
+@box[bg-purple text-white box-narrow-padding](Filtrar.#Devolver sólo los falsos 404, etc.)
+@snapend
+
+@snap[south-west template-note text-white]
+Boxed text fragments template.
+@snapend
+
 
 ---
 @title[reporte-resultados]
+
+@snap[north text-white span-100]
+@size[1.5em](Reporte de resultados)
+@snapend
 
 ![TIP](assets/image/results.png)
 
@@ -226,8 +238,12 @@ Note:
 Finalmente, los resultados son mostrados al final junto con un resumen, y el tamaño y la fecha si el fichero viene de  
 un Index Of.
 
----
+---?image=assets/image/bg/purple.jpg&position=center&size=100% 65%
 @title[opciones-peticion]
+
+@snap[center-center span-100 text-white]
+Opciones en la petición
+@snapend
 
 Note:
 Con Dirhunt hace falta hacer muchas menos peticiones, pero por si hace falta, también hay buenas opciones para las 
@@ -236,9 +252,18 @@ peticiones:
 ---
 @title[opciones-peticion-2]
 
-* Define uno o varios proxies.
-* Delay entre peticiones.
-* Búsqueda automática de proxies gratuitos, aleatorios o por países.
+@snap[south-east span-60 fragment]
+@box[bg-pink text-white box-narrow-padding](Proxies.#Define uno o varios proxies.)
+@snapend
+
+@snap[east span-60 fragment]
+@box[bg-orange text-white box-narrow-padding](Delay.#Define un delay entre peticiones.)
+@snapend
+
+@snap[north-east span-60 fragment]
+@box[bg-purple text-white box-narrow-padding](Proxies incluidos.#Búsqueda automática de proxies gratuitos, aleatorios o por países.)
+@snapend
+
 
 ---
 @title[instalar]
@@ -248,19 +273,20 @@ peticiones:
 $ sudo pip3 install dirhunt
 ```
 
+@snap[south-center]
 O haz tu fork de [Nekmo/dirhunt](https://github.com/Nekmo/dirhunt) en Github.
+@snapend
+
 
 ---
 @title[presentación]
 
 ## ¿Y la presentación?
 
-* Presentación: [github:Nekmo/dirhunt-presentacion](https://github.com/Nekmo/dirhunt-presentacion)
+[github:Nekmo/dirhunt-presentacion](https://github.com/Nekmo/dirhunt-presentacion)
 
 ---
 @title[contactar]
-
-## Contactar
 
 
 @snap[west contact-links]

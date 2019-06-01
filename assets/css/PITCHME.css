@@ -20,6 +20,14 @@
     text-align: right !important;
 }
 
+.text-align-left {
+    text-align: left !important;
+}
+
+.zoom-08 {
+    zoom: 0.8 !important;
+}
+
 /* Intro Template Styles */
 
 .byline {
@@ -205,12 +213,13 @@ div.docslink a:hover {
     font-family: 'Bowlby One SC', cursive !important;
     color: #331e00;
     display: block;
+    font-size: 1.2em !important;
 }
 
 .template-note {
-    font-family: 'Coda Caption H', "Coda Caption", Coda, serif;
+    font-family: 'Coda Caption H', "Coda Caption", Coda, serif !important;
   letter-spacing: 0.1em;
-  font-size: 0.4em !important;
+  font-size: 0.6em !important;
   color: #ff9800;
 }
 
@@ -284,6 +293,11 @@ div.docslink a:hover {
 [data-menu-title="fuerza-bruta"] code {
     font-size: 2.5em !important;
     color: whitesmoke;
+}
+
+[data-menu-title="otras-fuentes-robots"] code {
+    display: inline-block;
+    float: right;
 }
 
 /*.reveal pre {*/
