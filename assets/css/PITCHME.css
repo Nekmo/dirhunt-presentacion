@@ -15,6 +15,10 @@
   src: url('../fonts/CodaCaption-Heavy.ttf');
 }
 
+.text-shell {
+    color: #ddff55;
+}
+
 .west-30 {
     /* left: -100px !important; */
     text-align: right !important;

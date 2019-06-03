@@ -161,7 +161,21 @@ Note:
  (leer listado) ... Por ejemplo, tengo un amigo que lo usa para obtener información de   
 sitios web para SEO.
 
-------?image=assets/image/bg/pink.jpg&position=bottom&size=100% 20%
+---?color=#222222
+@title[uso-practico]
+
+@snap[north span-100 text-white]
+@size[1.5em](Uso práctico)
+@snapend
+
+@snap[west span-35 text-shell]
+@size[2em](Shells)
+@snapend
+
+@img[east](assets/image/shell.png)
+
+
+---?image=assets/image/bg/pink.jpg&position=bottom&size=100% 20%
 @title[index-of]
 
 @snap[zoom-08]
@@ -235,8 +249,8 @@ El robots.txt suele tener directorios interesantes, y también los usa para enco
 ---
 @title[previo-resultados]
 
-@snap[west span-45]
-@size[3em](Detecta y filtra)
+@snap[west span-40]
+@size[2.7em](Detecta y filtra)
 @snapend
 
 
@@ -269,8 +283,8 @@ un Index Of.
 ---
 @title[opciones-peticion-2]
 
-@snap[west span-45]
-@size[2.5em](Opciones petición)
+@snap[west span-40]
+@size[2.3em](Opciones petición)
 @snapend
 
 @snap[north-east span-60 fragment]
