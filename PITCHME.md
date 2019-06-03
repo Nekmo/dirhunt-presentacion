@@ -169,10 +169,10 @@ sitios web para SEO.
 @snapend
 
 @snap[west span-35 text-shell]
-@size[2em](Shells)
+@size[2.7em](Shells)
 @snapend
 
-@img[east](assets/image/shell.png)
+@img[east span-70](assets/image/shell.png)
 
 
 ---?image=assets/image/bg/pink.jpg&position=bottom&size=100% 20%
@@ -283,19 +283,19 @@ un Index Of.
 ---
 @title[opciones-peticion-2]
 
-@snap[west span-40]
+@snap[east span-40]
 @size[2.3em](Opciones petición)
 @snapend
 
-@snap[north-east span-60 fragment]
+@snap[north-west span-60 fragment]
 @box[bg-pink text-white box-narrow-padding](Proxies.#Define uno o varios proxies.)
 @snapend
 
-@snap[east span-60 fragment]
+@snap[west span-60 fragment]
 @box[bg-orange text-white box-narrow-padding](Delay.#Define un delay entre peticiones.)
 @snapend
 
-@snap[south-east span-60 fragment]
+@snap[south-west span-60 fragment]
 @box[bg-purple text-white box-narrow-padding](Proxies incluidos.#Búsqueda automática de proxies gratuitos, aleatorios o por países.)
 @snapend
 
