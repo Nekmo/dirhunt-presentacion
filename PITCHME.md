@@ -83,6 +83,16 @@ Estas herramientas normalmente realizan fuerza bruta desde un diccionario, lo cu
 O más bien, este mono
 @snapend
 
+---?image=assets/image/bg/purple.jpg&position=center&size=100% 65%
+@title[como-funciona]
+
+@snap[center-center span-100 text-white]
+@size[2.1em](Cómo funciona)
+@snapend
+
+Note:
+¿Pero cómo funciona Dirhunt y qué es lo que hace lo hace diferente?
+
 ---
 @title[peticiones-dirhunt]
 
@@ -126,7 +136,7 @@ páginas. **¿Y para qué sirve esto?**
 @size[1.5em](En acción)
 @snapend
 
-@snap[south zoom-08]
+@snap[south span-80]
 [![asciicast](https://asciinema.org/a/xPJXT0MhrvlZ8lJYJYkjxlice.png)](https://asciinema.org/a/xPJXT0MhrvlZ8lJYJYkjxlice)
 @snapend
 
@@ -151,11 +161,14 @@ Note:
  (leer listado) ... Por ejemplo, tengo un amigo que lo usa para obtener información de   
 sitios web para SEO.
 
----
+------?image=assets/image/bg/pink.jpg&position=bottom&size=100% 20%
 @title[index-of]
 
 ![TIP](assets/image/index_of.png)
 
+@snap[south text-white span-100]
+@size[1.5em](Index Of, de lo más útil)
+@snapend
 
 Note:
 Pero cuando Dirhunt es especialmente potente, es en aquellos sitios con el Index Of habilitado. 
@@ -220,6 +233,11 @@ El robots.txt suele tener directorios interesantes, y también los usa para enco
 ---
 @title[previo-resultados]
 
+@snap[west span-45]
+# Detecta y filtra
+@snapend
+
+
 @snap[north-east span-60 fragment]
 @box[bg-pink text-white box-narrow-padding](Falsos 404.#Si una carpeta devuelve 404, pero tiene subarchivos.)
 @snapend
@@ -233,7 +251,7 @@ El robots.txt suele tener directorios interesantes, y también los usa para enco
 @snapend
 
 
----?image=assets/image/bg/yellow.jpg&position=bottom&size=100% 20%
+---?image=assets/image/bg/yellow.jpg&position=top&size=100% 20%
 @title[reporte-resultados]
 
 @snap[north text-white span-100]
@@ -246,19 +264,12 @@ Note:
 Finalmente, los resultados son mostrados al final junto con un resumen, y el tamaño y la fecha si el fichero viene de  
 un Index Of.
 
----?image=assets/image/bg/purple.jpg&position=center&size=100% 65%
-@title[opciones-peticion]
-
-@snap[center-center span-100 text-white]
-@size[2em](Opciones en la petición)
-@snapend
-
-Note:
-Con Dirhunt hace falta hacer muchas menos peticiones, pero por si hace falta, también hay buenas opciones para las 
-peticiones:
-
 ---
 @title[opciones-peticion-2]
+
+@snap[west span-45]
+# Opciones petición
+@snapend
 
 @snap[north-east span-60 fragment]
 @box[bg-pink text-white box-narrow-padding](Proxies.#Define uno o varios proxies.)
@@ -291,7 +302,7 @@ O haz tu fork de [Nekmo/dirhunt](https://github.com/Nekmo/dirhunt) en Github.
 
 ## ¿Y la presentación?
 
-[github:Nekmo/dirhunt-presentacion](https://github.com/Nekmo/dirhunt-presentacion)
+[github: Nekmo/dirhunt-presentacion](https://github.com/Nekmo/dirhunt-presentacion)
 
 ---
 @title[contactar]

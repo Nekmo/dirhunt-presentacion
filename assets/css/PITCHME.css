@@ -300,6 +300,12 @@ div.docslink a:hover {
     float: right;
 }
 
+[data-menu-title="instalar"] code {
+    font-size: 2.5em !important;
+    text-align: center;
+}
+
+
 /*.reveal pre {*/
   /*width: 100%;*/
   /*box-shadow : none;*/
