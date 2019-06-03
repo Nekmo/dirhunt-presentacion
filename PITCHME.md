@@ -283,8 +283,8 @@ un Index Of.
 ---
 @title[opciones-peticion-2]
 
-@snap[east span-40]
-@size[2.3em](Opciones petición)
+@snap[east span-40 text-align-left]
+@size[2.3em padding-left-05](Opciones petición)
 @snapend
 
 @snap[north-west span-60 fragment]
