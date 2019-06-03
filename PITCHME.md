@@ -164,7 +164,9 @@ sitios web para SEO.
 ------?image=assets/image/bg/pink.jpg&position=bottom&size=100% 20%
 @title[index-of]
 
+@snap[zoom-08]
 ![TIP](assets/image/index_of.png)
+@snapend
 
 @snap[south text-white span-100]
 @size[1.5em](Index Of, de lo más útil)
@@ -234,7 +236,7 @@ El robots.txt suele tener directorios interesantes, y también los usa para enco
 @title[previo-resultados]
 
 @snap[west span-45]
-# Detecta y filtra
+@size[3em](Detecta y filtra)
 @snapend
 
 
@@ -268,7 +270,7 @@ un Index Of.
 @title[opciones-peticion-2]
 
 @snap[west span-45]
-# Opciones petición
+@size[2.5em](Opciones petición)
 @snapend
 
 @snap[north-east span-60 fragment]
