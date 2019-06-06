@@ -5,14 +5,19 @@
  * https://github.com/gitpitch/gitpitch/wiki/Slideshow-Custom-CSS
  */
 
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Coda+Caption:800&display=swap');
+
+
 @font-face {
   font-family: 'Bowlby One SC';
-  src: url('../fonts/BowlbyOneSC-Regular.ttf');
+  /* src: url('../fonts/BowlbyOneSC-Regular.ttf'); */
 }
 
 @font-face {
-  font-family: 'Coda Caption H';
-  src: url('../fonts/CodaCaption-Heavy.ttf');
+  font-family: 'Coda Caption', sans-serif;
+  /* font-family: 'Coda Caption H'; */
+  /* src: url('../fonts/CodaCaption-Heavy.ttf'); */
 }
 
 .text-shell {
