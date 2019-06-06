@@ -17,7 +17,8 @@
 
 Note:
 Buenas, soy **Juan José**, conocido en Github como **Nekmo** y llevo 13 años desarrollando en Python; estoy 
-especializado en seguridad informática en Hispasec Sistemas.
+especializado en seguridad informática en **Hispasec Sistemas**. Pero a parte, en mi tiempo libre desarrollo 
+Dirhunt...
 
 ---?image=assets/image/bg/orange.jpg&position=bottom&size=100% 20%
 @title[github-dirhunt]
@@ -29,8 +30,8 @@ especializado en seguridad informática en Hispasec Sistemas.
 ![TIP](assets/image/github_dirhunt.png)
 
 Note:
-A parte, en mi tiempo libre desarrollo Dirhunt, una herramienta para descubrir contenido de aplicaciones web, la cual 
-es software libre y puede encontrarse en Github. 
+... una herramienta para descubrir contenido de aplicaciones web, la cual es software libre y puede 
+encontrarse en Github. 
 
 ---?image=assets/image/bg/blue.jpg&position=left&size=40% 100%
 @title[github-stars]
@@ -44,7 +45,8 @@ Más de 600 estrellas
 @snapend
 
 Note:
-Ha tenido una buena acogida y a día de hoy se puede considerar un proyecto maduro.
+Ha tenido una buena acogida y a día de hoy se puede considerar un proyecto maduro. No obstante, existen otras 
+herramientas similares, entonces...
 
 ---?image=assets/image/bg/blue.jpg&position=right&size=70% 100%
 @title[otras-herramientas]
@@ -55,7 +57,7 @@ Ha tenido una buena acogida y a día de hoy se puede considerar un proyecto madu
 @snapend
 
 Note:
-¿Pero en qué se diferencia esta herramienta?
+¿En qué se diferencia respecto a otras herramientas? Pues otras herramientas utilizan fuerza bruta...
 
 (listar otras alternativas como Cansina)
 
@@ -73,14 +75,14 @@ http://dominio/AAAAAAA.php
 
 
 Note:
-Estas herramientas normalmente realizan fuerza bruta desde un diccionario, lo cual requiere muchos intentos. Vamos, 
-**algo que podría hacer un mono**.
+Estos ataques con fuerza bruta normalmente se realizan con un diccionario, lo cual requiere muchos intentos, un 
+trabajo aburrido **que podría hacer un mono**.
 
 ---?image=assets/image/monkey.webp
 @title[mono]
    
 @snap[north-east text-white]
-O más bien, este mono
+O este mono, si lo preferías. Pero bueno...
 @snapend
 
 ---?image=assets/image/bg/purple.jpg&position=center&size=100% 65%
@@ -91,7 +93,7 @@ O más bien, este mono
 @snapend
 
 Note:
-¿Pero cómo funciona Dirhunt y qué es lo que hace lo hace diferente?
+¿Cómo funciona entonces Dirhunt si no usa fuerza bruta?
 
 ---
 @title[peticiones-dirhunt]
@@ -99,7 +101,7 @@ Note:
 ![TIP](assets/image/peticiones-dirhunt.png)
 
 Note:
-En cambio, Dirhunt es un crawler que analiza el contenido para encontrar nuevas rutas.
+Dirhunt es un crawler que analiza el contenido para encontrar nuevas rutas.
 
 ---?color=black
 @title[procesado-peticiones]
@@ -127,7 +129,7 @@ En cambio, Dirhunt es un crawler que analiza el contenido para encontrar nuevas 
 
 Note:
 Recorre los directorios de los assets de la página. Sigue los enlaces internos de la web para encontrar nuevas 
-páginas. **¿Y para qué sirve esto?**
+páginas. Pero vamos a verlo en acción...
 
 ---?image=assets/image/bg/black.jpg&position=top&size=100% 20%
 @title[asciinema]
@@ -140,6 +142,8 @@ páginas. **¿Y para qué sirve esto?**
 [![asciicast](https://asciinema.org/a/xPJXT0MhrvlZ8lJYJYkjxlice.png)](https://asciinema.org/a/xPJXT0MhrvlZ8lJYJYkjxlice)
 @snapend
 
+Note:
+(poner vídeo)
 
 ---?image=assets/image/bg/pink.jpg&position=top&size=100% 20%
 @title[otras-herramientas]
@@ -158,7 +162,7 @@ páginas. **¿Y para qué sirve esto?**
 @snapend
 
 Note:
- (leer listado) ... Por ejemplo, tengo un amigo que lo usa para obtener información de   
+¿Qué usos puede tener esto? (leer)... Por ejemplo, tengo un amigo que lo usa para obtener información de   
 sitios web para SEO.
 
 ---?color=#222222
@@ -174,6 +178,11 @@ sitios web para SEO.
 
 @img[east span-70](assets/image/shell.png)
 
+Note:
+Uno de los casos prácticos que hemos tenido nosotros, es para buscar shells. Los atacantes ocultan entre 
+las carpetas del sitio estos ficheros. **Y esto lo podemos lograr en muchas ocasiones gracias a que los sitios 
+suelen tener algo habilitado**...
+
 
 ---?image=assets/image/bg/pink.jpg&position=bottom&size=100% 20%
 @title[index-of]
@@ -187,7 +196,7 @@ sitios web para SEO.
 @snapend
 
 Note:
-Pero cuando Dirhunt es especialmente potente, es en aquellos sitios con el Index Of habilitado. 
+**El Index of**. Contiene muchísima información para Dirhunt, y la muestra por consola. **Pero...**
 
 ---?image=assets/image/bg/green.jpg&position=center&size=100% 65%
 @title[otras-fuentes]
@@ -197,7 +206,7 @@ Pero cuando Dirhunt es especialmente potente, es en aquellos sitios con el Index
 @snapend
 
 Note:
-Pero por si no hay formas de obtener enlaces ni carpetas de la página principal, también tiene otros trucos:
+¿Qué pasa si no está habilitado, o nada funciona? Entonces Dirhunt tiene otros trucos:
 
 ---?image=assets/image/bg/blue.jpg&position=left&size=40% 100%
 @title[otras-fuentes-google]
@@ -266,6 +275,11 @@ El robots.txt suele tener directorios interesantes, y también los usa para enco
 @box[bg-purple text-white box-narrow-padding](Filtrar.#Devolver sólo los falsos 404, que usan páginas en blanco, etc.)
 @snapend
 
+Note:
+**Y con los datos realiza y permite aún más cosas** *Falsos 404*. Si el servidor indica que una carpeta no existe, pero 
+hay archivos y carpetas que cuelgan de la carpeta, entonces es falso. *Páginas en blanco* Suele ponerse un index.html 
+vacío para que no se listen archivos sensibles. *Filtrar* Permite filtrar por estos y otros criterios.
+
 
 ---?image=assets/image/bg/yellow.jpg&position=top&size=100% 20%
 @title[reporte-resultados]
@@ -284,7 +298,7 @@ un Index Of.
 @title[opciones-peticion-2]
 
 @snap[east span-40 text-align-left]
-@size[2.3em padding-left-05](Opciones petición)
+@size[2.3em](Opciones petición)
 @snapend
 
 @snap[north-west span-60 fragment]
@@ -299,6 +313,9 @@ un Index Of.
 @box[bg-purple text-white box-narrow-padding](Proxies incluidos.#Búsqueda automática de proxies gratuitos, aleatorios o por países.)
 @snapend
 
+Note:
+Pero también hay opciones al realizar la petición. Estas opciones son (leer).
+
 
 ---?color=#36454F
 @title[instalar]
@@ -312,6 +329,9 @@ $ sudo pip3 install dirhunt
 O haz tu fork de [Nekmo/dirhunt](https://github.com/Nekmo/dirhunt) en Github.
 @snapend
 
+Note:
+Si os interesa, podéis instalarlo con solo una línea usando pip, y en Github leer más al respecto o hacer vuestro 
+propio fork. Y **si algo no ha quedado claro...**
 
 ---
 @title[presentación]
@@ -319,6 +339,9 @@ O haz tu fork de [Nekmo/dirhunt](https://github.com/Nekmo/dirhunt) en Github.
 ## ¿Y la presentación?
 
 [github: Nekmo/dirhunt-presentacion](https://github.com/Nekmo/dirhunt-presentacion)
+
+Note:
+**Podéis volver a ver la presentación en su Github**.  
 
 ---
 @title[contactar]
@@ -344,3 +367,6 @@ O haz tu fork de [Nekmo/dirhunt](https://github.com/Nekmo/dirhunt) en Github.
 @snap[north-east template-note text-gray]
 Formas de contacto.
 @snapend
+
+Note:
+Muchas gracias a todos, y si queréis contactar aquí tenéis formas de contactar conmigo, ¡o luego con las cervezas!

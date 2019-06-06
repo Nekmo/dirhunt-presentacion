@@ -28,11 +28,6 @@
     text-align: left !important;
 }
 
-.padding-left-05 {
-    display: inline-block;
-    padding-left: 0.5em;
-}
-
 .zoom-08 {
     zoom: 0.8 !important;
 }
@@ -312,6 +307,11 @@ div.docslink a:hover {
 [data-menu-title="instalar"] code {
     font-size: 2.5em !important;
     text-align: center;
+}
+
+[data-menu-title="opciones-peticion-2"] span {
+    display: inline-block !important;
+    padding-left: 0.5em !important;
 }
 
 
