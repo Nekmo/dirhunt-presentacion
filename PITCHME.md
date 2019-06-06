@@ -82,8 +82,11 @@ trabajo aburrido **que podría hacer un mono**.
 @title[mono]
    
 @snap[north-east text-white]
-O este mono, si lo preferías. Pero bueno...
+O más bien, este mono.
 @snapend
+
+Note:
+O este mono, si lo preferís. Pero bueno...
 
 ---?image=assets/image/bg/purple.jpg&position=center&size=100% 65%
 @title[como-funciona]
