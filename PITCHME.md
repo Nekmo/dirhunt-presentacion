@@ -334,7 +334,58 @@ O haz tu fork de [Nekmo/dirhunt](https://github.com/Nekmo/dirhunt) en Github.
 
 Note:
 Si os interesa, podéis instalarlo con solo una línea usando pip, y en Github leer más al respecto o hacer vuestro 
-propio fork. Y **si algo no ha quedado claro...**
+propio fork.
+
+---?color=#282923
+@title[exclusiva]
+
+@size[2m](Exclusiva)
+
+Note:
+Y ahora una exclusiva de un proyecto nuevo en desarrollo.
+
+---?color=#282923
+@title[exclusiva]
+
+@snap[east span-60]
+@size[2m](Pentest Studio)
+@snapend
+
+Note:
+Pentest Studio. Un gestor de proyectos para auditores. **Puedes usarlo para...**
+
+---
+@title[pentest-studio-comando]
+
+@snap[center]
+@img[span-100](assets/image/pentest-studio-comando.*)
+@snapend
+
+Note:
+Crear plantillas de comando y ejecutarlos de una forma más fácil
+
+---
+@title[pentest-studio-htop]
+
+@snap[center]
+@img[span-100](assets/image/pentest-studio-htop.*)
+@snapend
+
+Note:
+Todos los auditores pueden interactuar con los comandos en ejecución
+
+---
+@title[pentest-studio-video]
+
+@snap[center]
+@img[span-100](assets/image/pentest-studio-video.*)
+@snapend
+
+---?color=#282923
+
+@snap[east span-60]
+@size[2m](En acción...)
+@snapend
 
 ---
 @title[presentación]
