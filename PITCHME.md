@@ -383,6 +383,9 @@ Todos los auditores pueden interactuar con los comandos en ejecución
 @img[span-100](assets/image/pentest-studio-video.png)
 @snapend
 
+Note:
+Y después reproducir lo que ha sucedido en un vídeo. **Pero mejor vamos a verlo en acción...**
+
 ---?color=#282923
 
 @snap[east span-60]
