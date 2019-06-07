@@ -339,7 +339,9 @@ propio fork.
 ---?color=#282923
 @title[exclusiva]
 
-@size[2m](Exclusiva)
+@snap[center span-60]
+@size[2em](Exclusiva)
+@snapend
 
 Note:
 Y ahora una exclusiva de un proyecto nuevo en desarrollo.
@@ -347,8 +349,8 @@ Y ahora una exclusiva de un proyecto nuevo en desarrollo.
 ---?color=#282923
 @title[exclusiva]
 
-@snap[east span-60]
-@size[2m](Pentest Studio)
+@snap[center span-60]
+@size[2em](Pentest Studio)
 @snapend
 
 Note:
@@ -358,7 +360,7 @@ Pentest Studio. Un gestor de proyectos para auditores. **Puedes usarlo para...**
 @title[pentest-studio-comando]
 
 @snap[center]
-@img[span-100](assets/image/pentest-studio-comando.*)
+@img[span-100](assets/image/pentest-studio-comando.png)
 @snapend
 
 Note:
@@ -368,7 +370,7 @@ Crear plantillas de comando y ejecutarlos de una forma más fácil
 @title[pentest-studio-htop]
 
 @snap[center]
-@img[span-100](assets/image/pentest-studio-htop.*)
+@img[span-100](assets/image/pentest-studio-htop.png)
 @snapend
 
 Note:
@@ -378,13 +380,13 @@ Todos los auditores pueden interactuar con los comandos en ejecución
 @title[pentest-studio-video]
 
 @snap[center]
-@img[span-100](assets/image/pentest-studio-video.*)
+@img[span-100](assets/image/pentest-studio-video.png)
 @snapend
 
 ---?color=#282923
 
 @snap[east span-60]
-@size[2m](En acción...)
+@size[2em](En acción...)
 @snapend
 
 ---
