@@ -339,8 +339,8 @@ propio fork.
 ---?color=#282923
 @title[exclusiva]
 
-@snap[center span-60]
-@size[2em](Exclusiva)
+@snap[span-100]
+@size[4em](Exclusiva)
 @snapend
 
 Note:
@@ -349,7 +349,7 @@ Y ahora una exclusiva de un proyecto nuevo en desarrollo.
 ---?color=#282923
 @title[exclusiva]
 
-@snap[center span-60]
+@snap[west span-60]
 @size[2em](Pentest Studio)
 @snapend
 
